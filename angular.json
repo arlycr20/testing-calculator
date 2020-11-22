@@ -123,10 +123,6 @@
   },
   "defaultProject": "testing-calculator",
   "cli": {
-<<<<<<< HEAD
-    "analytics": false
-=======
     "analytics": "a695a6ed-13ab-48d4-9828-670350809bbc"
->>>>>>> master
   }
 }
