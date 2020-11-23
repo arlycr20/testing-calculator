@@ -2,8 +2,6 @@
 
 # TestingCalculator
 
-[Requerimientos](https://drive.google.com/file/d/17oFHIDTCDoaHAdFdb_amwmJU8UORkv8_/view?usp=sharing "Requerimientos Calculadora ")
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
 ## Development server
