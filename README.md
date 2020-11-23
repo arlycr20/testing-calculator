@@ -2,7 +2,7 @@
 
 # TestingCalculator
 
-[my internal link][file:///C:/Users/arely/Documents/SEP%202020%20-%20ENE%202021/Pruebas%20de%20Software/Mockups%20IMC/Requerimientos%20Calculadora%20IMC.pdf]
+[Requerimientos de Calculadora IMC](file:///C:/Users/arely/Documents/SEP%202020%20-%20ENE%202021/Pruebas%20de%20Software/Mockups%20IMC/Requerimientos%20Calculadora%20IMC.pdf)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
