@@ -42,4 +42,14 @@ describe ('addition unit tests', () => {
         //Assert
         expect(result).toBe(3.1416);
     })
+    it ('Should add 0.0 + 0.0 = 0.0',() => {
+        //Patern AAA (Arrange - Act - Assert)
+
+        //Arrange
+        let result = 0;
+        //Act
+        result = addition(0.0, 0.0);
+        //Assert
+        expect(result).toBe(0.0);
+    })
 })
