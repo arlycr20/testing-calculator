@@ -1,0 +1,33 @@
+<div class="card bg-dark">
+
+    <div class="card-header text-center text-light"> <strong><h3>C A L C U L A T O R</h3></strong></div>
+    
+    <div class="card-body">
+
+        <form class="form-group">
+            <div class="form-group flex-row">
+                <input id="operator1" [(ngModel)]="operator1" type="number" class="form-control operator" name="operator1">
+                <input id="operator2" [(ngModel)]="operator2" type="number" class="form-control operator" name="operator2">
+            </div>
+        </form>
+
+        <div class="text-center">
+            <br>
+            <button class="btn btn-lg btn-outline-light text-center addition-button" (click) ="addition()"> SUM </button>&nbsp;
+            <button class="btn btn-lg btn-outline-primary text-center substraction-button" (click) ="substraction()"> RES </button>&nbsp;
+            <button class="btn btn-lg btn-outline-success text-center multiplication-button" (click) ="multiplication()"> MUL </button>&nbsp;
+            <button class="btn btn-lg btn-outline-warning text-center division-button" (click) ="division()"> DIV </button>&nbsp;
+            <button class="btn btn-lg btn-outline-danger text-center exp-button" (click) ="exp()"> EXP </button>&nbsp;
+            <button class="btn btn-lg btn-outline-info text-center sqr-button" (click) ="sqr()"> SQR </button>&nbsp;
+            <button class="btn btn-lg btn-outline-secondary text-center sqrt-button" (click) ="sqrt()"> SQRT </button>&nbsp;
+            <br><br>
+        </div>
+
+        <div class="text-center text-light result">
+            <h1> {{ result }} </h1>
+            <br>
+            <hr>
+            <h5>Arely Colorado</h5>
+        </div>
+    </div>
+</div>
