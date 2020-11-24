@@ -1,0 +1,51 @@
+.operator {
+    font-size:1.5em;
+    font-weight: bold;
+    margin:5px;
+    text-align: center;
+}
+.card {
+    border-radius: 15px;
+    margin-top:20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    font-weight: bold;
+    letter-spacing: .2rem;
+    margin: 5px;
+}
+
+.addition-button {
+    cursor: pointer;
+    font-size: 18px; 
+  }
+.substraction-button {
+cursor: pointer;
+font-size: 18px; 
+} 
+.multiplication-button {
+cursor: pointer;
+font-size: 18px; 
+} 
+.division-button{
+cursor: pointer;
+font-size: 18px; 
+}
+.exp-button{
+cursor: pointer;
+font-size: 18px; 
+}
+.sqr-button{
+cursor: pointer;
+font-size: 18px; 
+}
+.sqrt-button{
+cursor: pointer;
+font-size: 18px; 
+
+}
